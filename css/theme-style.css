@@ -1,0 +1,74 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+.services{
+	margin-top:520px;
+	padding: 3em 0;
+	border:solid 0px blue; 
+	background-color:white;
+	position:relative;
+}
+.services-grid{
+	margin-top:2em;
+}
+.services-head h3{
+	text-transform: uppercase;
+	color: #F4BB36;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin: 0 0 0.5em 0; 
+}
+.services-grids{
+	margin-top:0.5em;
+}
+.services-head p{
+	color: #414141;
+	font-size: 0.875em;
+	width: 80%;
+	margin: 0 auto;
+	line-height: 1.8em;
+}
+.services-grid-left a span{
+	width:64px;
+	height:64px;
+	background:url(../img/top-icons.png) no-repeat 0px 0px;
+	display:inline-block;
+	margin-top: 0.2em;
+}
+.services-grid-left a span{
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.services-grid-left a span:hover{
+	transform: scale(1.2);
+}
+
+.services-grid-right h4 a{
+	color: #222;
+	font-size: 1.4em;
+}
+.services-grid-right h4 a:hover{
+	text-decoration:none;
+	color:#1D82FE;
+}
+.services-grid-right p{
+	color: #414141;
+	font-size: 0.815em;
+	line-height: 1.8em;
+}
+.services-grid-left a.top-icon2 span{
+	background-position: -61px 1px;
+}
+.services-grid-left a.top-icon3 span{
+	background-position: -125px 1px;
+}
+.services-grid-left a.top-icon4 span{
+	background-position: -187px 1px;
+}
+.services-grid-left a.top-icon5 span{
+	background-position: -251px 1px;
+}
+.services-grid-left a.top-icon6 span{
+	background-position: -314px 1px;
+}

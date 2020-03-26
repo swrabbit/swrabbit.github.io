@@ -1,0 +1,84 @@
+body{margin:0;padding:0;background:#151F27;font-size:12px;overflow:auto}
+#mainDiv{width:100%;height:100%}
+#loveHeart{float:right;width:670px;height:625px;}
+#garden{width:110%;height:110%}
+#elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}
+#leiLoveYang{font-family:"sans-serif";text-align:center;margin-left:79px;margin-bottom:12px; border:solid 0px red;}
+#words{font-family:"sans-serif";width:520px;font-size:30px;color:white}
+#messages{display:none;margin-left:10px;}
+#elapseClock .digit{font-family:"digit";font-size:36px;}
+#loveu{padding:5px;font-size:26px;margin-top:80px;margin-right:116px;text-align:right;display:none}
+#loveu .signature{margin-top:10px;font-size:20px;font-style:italic}
+#clickSound{display:none}
+#code{float:left;width:670px;height:400px;color:#333;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:22px;position: absolute}
+#code .string{color:#2a36ff}
+#code .keyword{color:#7f0055;font-weight:bold}
+#code .placeholder{margin-left:15px}#code .space{margin-left:7px}
+#code .comments{color:#3f7f5f}
+#copyright{margin-top:10px;text-align:center;width:100%;color:#666}
+#errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
+#copyright a{color:#666}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #22313f;
+}
+
+#starsBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: .5;
+}
+#starsBox span {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  border-radius: 100%;
+  transition: 100s linear;
+}
+
+p {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 0 50px black;
+  text-transform: uppercase;
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  letter-spacing: 5px;
+}
+p > span {
+  display: block;
+  font-size: 12px;
+  color: #bdc3c7;
+  margin-top: 30px;
+  font-weight: 100;
+  text-shadow: 0 0 50px black;
+  letter-spacing: 3px;
+}
+p > span > a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #d64541;
+  padding-bottom: 2px;
+  border-bottom: 0px solid #d64541;
+  transition: 0.5s;
+}
+p > span > a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d64541;
+}
