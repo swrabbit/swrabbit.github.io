@@ -1,9 +1,9 @@
 html {
 	height: 100%;
 	background-color: #2C2F38;
-	/* 整个网站置灰 */
+	/* 整个网站置灰 
 	-webkit-filter: grayscale(100%);
-	filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);*/
 }
 
 body {
