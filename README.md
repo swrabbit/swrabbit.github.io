@@ -17,3 +17,7 @@
 
 ### 软件截图
 <img src="https://www.lrabbit.cn/img/slide1.png">
+<img src="https://www.lrabbit.cn/img/slide2.png">
+<img src="https://www.lrabbit.cn/img/slide3.png">
+<img src="https://www.lrabbit.cn/img/slide4.png">
+<img src="https://www.lrabbit.cn/img/slide5.png">
